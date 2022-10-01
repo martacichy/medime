@@ -1,0 +1,58 @@
+
+.password {
+    margin-bottom: 40px;
+}
+
+.input {
+    font-family: "Nunito", sans-serif;
+    display: block;
+    height: 32px;
+    font-size: 20px;
+    outline: none;
+    width: 70%;
+    justify-content: center;
+
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+    margin: 12px 0px 12px 0px;
+}
+
+.label {
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    color: #1b4965;
+    font-size: 18px;
+    margin: 20px 0px 20px;
+}
+
+.input-select {
+    font-family: "Nunito", sans-serif;
+    color: #1b4965;
+    transform: scale(1.5);
+    margin: 10px;
+}
+
+.input-select:hover {
+    background-color: #09bc8a;
+}
+
+.label-light {
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    font-size: 14px;
+    display: grid;
+}
+
+.form {
+    display: inline;
+}
+
+.form-success {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: #09bc8a;
+}

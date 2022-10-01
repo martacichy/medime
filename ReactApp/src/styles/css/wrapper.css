@@ -1,0 +1,38 @@
+
+.wrapper {
+    overflow: auto;
+    background-color: #ffffff;
+    border-color: #a6a6a7;
+    box-shadow: 0 0 5px #a6a6a7;
+    min-width: 130vh;
+    padding: 3%;
+    border-radius: 10px;
+    overflow-y: auto;
+    border-color: #ffffff;
+    box-shadow: 0 0 8px #ffffff;
+
+}
+
+.app-wrapper {
+    overflow: auto;
+    background-color: whitesmoke;
+    min-width: 600px;
+    /* min-height: 650px; */
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.app-wrapper-home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.5fr repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 20px;
+}
+
+.app-wrapper-page {
+    width: 100vh;
+    margin: 30px;
+}

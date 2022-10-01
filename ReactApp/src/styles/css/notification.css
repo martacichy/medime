@@ -1,0 +1,27 @@
+.notification-content {
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 2%;
+    border-color: #a6a6a7;
+    box-shadow: 0 0 5px #a6a6a7;
+    max-width: 500px;
+}
+
+.notification-text {
+    display: block;
+    padding: 10px;
+}
+
+.notification-icon {
+    font-size: 50px;
+}
+
+.notification {
+    display: block;
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    color: #1b4965;
+    font-size: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@200;300;400&display=swap");
+@import "~react-toastify/dist/ReactToastify.css";
+@import "./styles/css/button.css";
+@import "./styles/css/container.css";
+@import "./styles/css/wrapper.css";
+@import "./styles/css/form.css";
+@import "./styles/css/notification.css";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.element {
+	padding: 20px;
+	margin: 10px;
+	background-color: aliceblue;
+	border-radius: 15px;
+}
+
+.header-label {
+	margin-top: 20px;
+	margin-bottom: 18px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 48px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.icon {
+	font-size: 50px;
+	text-align: center;
+}
+
+
+
+.toastify {
+	font-size: 14px;
+}
+
+
+.title {
+	font-family: "Nunito", sans-serif;
+	font-size: 28px;
+	font-weight: 600;
+	color: #1b4965;
+	text-align: center;
+	margin: 20px 0px 20px;
+	display: block;
+}
+
+.pill {
+	display: block;
+	font-size: 16px;
+	font-family: "Nunito";
+	font-weight: 500;
+	border-radius: 14px;
+	background-color: #765efc;
+	color: whitesmoke;
+	padding: 10px;
+	margin: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.form {
+	display: inline;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.error {
+	color: red;
+}
+
+#outer {
+	width: 100%;
+	text-align: center;
+}
+.inner {
+	display: inline-block;
+}
+
+.checked-item {
+	text-decoration: line-through;
+}
+
+.appNameHead {
+	font-family: "Nunito", sans-serif;
+	font-size: 20px;
+}
+.appLogo {
+	text-align: center;
+}
+
+.logo-innavbar {
+	align-items: center;
+}
+
+.navbar {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	height: 4.5rem;
+	background-color: #647bf7;
+	justify-content: space-around;
+	position: sticky;
+}

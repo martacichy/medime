@@ -1,0 +1,21 @@
+.submit {
+    display: inline-block;
+    align-self: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 25px;
+    color: white;
+    padding: 8px 40px;
+    background: #ee6c4d;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+}
+
+.submit:hover {
+    box-shadow: 0 8px 22px 0 rgb(37 44 97 / 15%),
+        0 4px 6px 0 rgb(93 100 148 / 20%);
+    background-color: #f7603a;
+}
